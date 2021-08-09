@@ -1,14 +1,17 @@
 import React from "react";
-import { Layout, Seo } from "components/common";
-import { Intro, Skills, Contact, Projects } from "components/landing";
+import  Layout from '../components/Layout'
+import  Intro from "../components/Intro";
+import  Skills from "../components/Skills";
+import  Project  from "../components/Project";
+import Contact from "../components/Contact";
+
 
 const Home = () => (
 	<Layout>
-		<Seo />
 		<Intro />
-		<Projects />
+		<Project />
 		<Skills />
-		<Contact />
+		<Contact></Contact>
 	</Layout>
 );
 
