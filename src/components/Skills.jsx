@@ -20,9 +20,6 @@ const Skills = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry’s standard dummy.
           </p>
-          <Button variant="outline-info">
-            Hire me
-          </Button>
         </Details>
       </SkillsWrapper>
     </Wrapper>

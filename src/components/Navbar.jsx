@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <Wrapper as={Container}>
       <Link to="/">
-        John Doe
+        Zakir Hossain
       </Link>
       <NavbarLinks desktop />
     </Wrapper>

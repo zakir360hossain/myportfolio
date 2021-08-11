@@ -13,15 +13,16 @@ const Intro = () => {
     <Wrapper>
       <Header />
       <IntroWrapper as={Container}>
-        <Details >
+        <Details>
           <h1>Hi There!</h1>
-          <h4>I’m John and I’m a JAMStack engineer!</h4>
-          <Button>
-            Hire me
-          </Button>
+          <h2>
+            I’m Zakir and I’m a software <br />
+            and web developer and forseeable data scientist!
+          </h2>
+          <h3>Please welcome to contact me if I could be at your service</h3>
         </Details>
         <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a JAMStack engineer!" />
+          <img src={dev} alt="I am Zakir and I am a developer!" />
         </Thumbnail>
       </IntroWrapper>
     </Wrapper>
@@ -58,13 +59,10 @@ export const Details = styled.div`
 
   h1 {
     margin-bottom: 2rem;
-    font-size: 36pt;
   }
 
   h4 {
     margin-bottom: 2.5rem;
-    font-size: 32pt;
-    font-weight: normal;
   }
 `;
 
